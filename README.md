@@ -6,7 +6,7 @@ A Google Chrome extension which allows users to get their current IP address usi
 
 # Overview
 
-ipify consists of only a front-end client, the Google Chrome extensions. This repository cntains the files for it.
+**ipify** consists of a front-end client, the Google Chrome extensions. This repository contains the files for it.
 
 # Development
 
