@@ -1,6 +1,6 @@
 {
   "name": "ipify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -9,8 +9,7 @@
     "grunt-contrib-jshint": "~0.9.2",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-watch": "~0.6.1",
-    "jshint-stylish": "~0.1.5",
-    "grunt-chrome-manifest": "~0.2.0",
+    "jshint-stylish": "~0.1.5"
   },
   "engines": {
     "node": ">=0.8.0"

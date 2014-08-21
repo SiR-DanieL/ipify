@@ -5,33 +5,33 @@
 'use strict';
 
 var ipify = {
-  ipifyURL: 'http://api.ipify.org?format=json',
+    ipifyURL: 'http://api.ipify.org?format=json',
 
-  /**
-   * Sends an XHR GET request.
-   *
-   * @public
-   */
-  requestIP: function () {
-    var req = new XMLHttpRequest();
-    req.open("GET", this.ipifyURL, true);
-    req.onload = this.writeIP.bind(this);
-    req.send(null);
-  },
+    /**
+     * Sends an XHR GET request.
+     *
+     * @public
+     */
+    requestIP: function () {
+        var req = new XMLHttpRequest();
+        req.open('GET', this.ipifyURL, true);
+        req.onload = this.writeIP.bind(this);
+        req.send(null);
+    },
 
-  /**
-   * Handle the 'onload' event.
-   *
-   * @param {ProgressEvent} e The XHR ProgressEvent.
-   * @private
-   */
-  writeIP: function (e) {
-    var json = e.target.responseText;
-    json  = JSON.parse(json);
-    var div = document.createElement('div');
-    div.innerHTML = "<p>Your public IP address is</p><p>" + json.ip + "</p>";
-    document.body.appendChild(div);
-  }
+    /**
+     * Handle the 'onload' event.
+     *
+     * @param {ProgressEvent} e The XHR ProgressEvent.
+     * @private
+     */
+    writeIP: function (e) {
+        var json = e.target.responseText;
+        json  = JSON.parse(json);
+        var div = document.createElement('div');
+        div.innerHTML = '<p>Your public IP address is</p><p>' + json.ip + '</p>';
+        document.body.appendChild(div);
+    }
 };
 
 
