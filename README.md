@@ -1,6 +1,6 @@
 # ipify
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) [![Support us](http://img.shields.io/gittip/SiR-DanieL.svg)](https://www.gittip.com/SiR-DanieL/)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 A Google Chrome extension which allows users to get their current IP address using [ipify.org](http://ipify.org) API.
 
